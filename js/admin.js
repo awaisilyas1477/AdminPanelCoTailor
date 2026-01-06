@@ -39,7 +39,6 @@ addProductBtn.addEventListener("click", () => {
   productModal.style.display = "block";
 });
 
-// Close modal
 closeModal.onclick = () => { productModal.style.display = "none"; }
 window.onclick = (e) => { if (e.target == productModal) productModal.style.display = "none"; }
 
